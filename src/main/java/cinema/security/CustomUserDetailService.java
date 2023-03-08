@@ -1,4 +1,4 @@
-package security;
+package cinema.security;
 
 import static org.springframework.security.core.userdetails.User.withUsername;
 
