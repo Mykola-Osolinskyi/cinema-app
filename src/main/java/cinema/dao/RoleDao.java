@@ -6,5 +6,5 @@ import java.util.Optional;
 public interface RoleDao {
     Role add(Role role);
 
-    Optional<Role> getByName(String roleName);
+    Optional<Role> getByName(Role.RoleName roleName);
 }
